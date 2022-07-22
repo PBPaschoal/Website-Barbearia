@@ -1,0 +1,100 @@
+body {
+    background-image: url("../img/fundo02.png");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+div.imagem-tesoura {
+    text-align: right;
+    margin-top: -70px;
+    margin-right: 50px;
+}
+
+.imagem-tesoura img {
+    width: 200px;
+}
+
+h1 {
+    font-size: 60px;
+    font-family: 'Anton', sans-serif;
+    -webkit-text-stroke: 1px #FFF;
+}
+
+div.imagens01 {
+    display: inline-block;
+    margin-top: 100px;
+    margin-left: 50px;
+}
+
+.primeiras-imagens img {
+    width: 350px;
+    border: 2px solid;
+    border-color: rgb(0, 0, 0);
+    transition: 0.5s all;
+}
+
+.primeiras-imagens img:hover {
+    width: 400px;
+    border: 6px solid;
+    border-color: rgb(252, 251, 251);
+}
+
+.primeiras-imagens, .segundas-imagens {
+    text-align: center;
+}
+
+.segundas-imagens {
+    padding-top: 50px;
+}
+
+.card {
+    display: inline-block;
+    margin-left: 20px;
+    color: white;;
+    background-color: rgb(19, 18, 18);
+}
+
+footer {
+    margin-top: 2%;
+    margin-bottom: -2%;
+    background-color: rgb(19, 18, 18);
+    text-align: center;
+    color: rgb(241, 219, 219);
+}
+
+@media screen and (max-width: 390px){
+    div.imagem-tesoura {
+        text-align: right;
+        margin-top: -10px;
+        margin-right: 30px;
+    }
+    
+    .imagem-tesoura img {
+        width: 165px;
+    }
+
+    div.imagens01 {
+        display: inline-block;
+        margin-top: 100px;
+        margin-left: auto;
+    }
+
+    .card {
+        margin-top: 5%;
+        margin-left: auto;
+    }
+    h1 {
+        font-size: 45px;
+    }
+
+    .primeiras-imagens img {
+        width: 300px;
+        border: 2px solid;
+        border-color: rgb(0, 0, 0);
+        transition: 0.5s all;
+    }
+    
+    .primeiras-imagens img:hover {
+        width: 320px;
+    }
+}
