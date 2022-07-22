@@ -1,8 +1,10 @@
 # Tony Barbearia  💬
-Observações:
  * Fiz esse site inspirado no marido da minha prima.
  * A ideia é continuar praticando o Boostrap, melhorar a sintaxe e entender mais sobre CSS.
  * Meu foco é praticar HTML e CSS puro, sem ajuda de framework. Mas às vezes faço um projeto com Boostrap e outros para já ir se familiarizando.
+ 
+ ## Observações:
+  * As imagens usadas são apenas para estudo/praticar, sem uso comercial.
  
  # MARCAÇÃO | PROGRAMAÇÃO | FRAMEWORK:
  
